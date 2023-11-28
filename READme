@@ -20,7 +20,7 @@ Open and connect to MySQL Workbench or a similar tool.
 Execute the SQL script lost_found.sql in the MySQL environment to create the necessary database.
 Remember your MySQL credentials as you will need them to connect to the project.
 
-NOW Open index.js in the backend folder and update the MySQL username and password with your credentials:
+NOW Open index.js in the server folder and update the MySQL username and password with your credentials:
 
 const connection = mysql.createConnection({
     host: 'localhost',
