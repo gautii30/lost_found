@@ -1,0 +1,44 @@
+Lost & Found System
+
+Welcome to the Lost & Found System! This application helps manage lost and found items.
+
+Getting Started
+Follow these steps to set up and run the application:
+
+-> Prerequisites: 
+
+1) MySQL installed.
+2) Node.js installed.
+
+Installation
+Clone the repository:
+Copy the below code: 
+git clone https://github.com/your-username/lost-found-system.git
+
+
+Open and connect to MySQL Workbench or a similar tool.
+Execute the SQL script lost_found.sql in the MySQL environment to create the necessary database.
+Remember your MySQL credentials as you will need them to connect to the project.
+
+NOW Open index.js in the backend folder and update the MySQL username and password with your credentials:
+
+const connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'your-username',
+    password: 'your-password',
+    database: 'lost_found',
+});
+
+
+
+Running the Application: 
+-> for the backend navigate to the server folder in your terminal and run:
+
+npm install
+npm run dev
+
+
+-> for the front end open a new terminal, navigate to the lost_found folder, and run:
+
+npm install
+npm run dev
